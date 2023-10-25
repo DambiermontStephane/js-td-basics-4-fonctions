@@ -27,7 +27,9 @@ pour le réutiliser dans une autre fonction
 
 // 1°) Créez la fonction calcule1
 
+function calcul1() {
 
+}
 
 // 2°) Créez la fonction calcule2
 
