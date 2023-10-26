@@ -17,12 +17,14 @@
 // etc. et ainsi de suite à chaque fois qu'on veut calculer le double d'un nouveau nombre 
 */
 
+
 /*
 // Si on regarde toutes ces fonctions, elles ont toutes un canevas commun,
 // il y a une seule chose qui change : le nombre (3, 10, 24, 128). Tout le reste est identique.
 // Dans ce cas, vous devez penser à créer une seule fonction qui prend un paramètre :
 // le nombre dont on veut calculer le double.
 */
+
 
 
 // 2°) Une fonction avec paramètre à la place de toutes celles-là :
@@ -36,3 +38,11 @@
                      - le double de 24 ;
                      - le double de 128.
 */
+
+function double3(nb) {
+    nb = parseInt(prompt("Entrez un nombre à doubler:"))
+    let resultat = nb * 2;
+    console.log(`Le double de ${nb} est ${resultat}`)
+}
+
+double3()
