@@ -31,7 +31,7 @@ function direBonjour() {
 // 2°) a) Exécuter la fonction (appelez la fonction direBonjour)
 direBonjour()
 // 3°) a) Stocker le résultat de l'exécution de direBonjour dans une variable resultat
-direBonjour();
+const resultat = direBonjour();
 
 // 3°) b) Donner l'ordre d'afficher le contenu de la variable resultat dans la console
 console.log(resultat)
