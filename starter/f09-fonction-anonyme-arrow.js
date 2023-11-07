@@ -20,9 +20,13 @@
 
 // Fonction anonyme avec la syntaxe "fat arrow function"
 
+const oui = () => {
+    console.log("Bonjour Thomas !")
+}
+
 // Utilisation de la fonction pour saluer Thomas dans la console
 
-
+oui()
 
 /*
 N.B. Dans certains cas particuliers, on peut simplifier la syntaxe des fonctions fléchées :
@@ -39,6 +43,8 @@ N.B. Dans certains cas particuliers, on peut simplifier la syntaxe des fonctions
 
 // Fonction anonyme avec la syntaxe simplifiée
 
+const oui2 = ()=> console.log("Bonjour Thomas2 !")
 
 // Utilisation de la fonction pour saluer Thomas dans la console
 
+oui2()
