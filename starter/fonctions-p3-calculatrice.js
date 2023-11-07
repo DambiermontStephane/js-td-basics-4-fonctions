@@ -12,8 +12,26 @@ FONCTIONS - PRÉPA 3 : Une première calculatrice
 Aide : votre fonction s'exécute avec le pattern suivant : calculer(nb1, "+", nb2)
 */
 
+const operation = prompt("Quel type d'opération ?")
+const nb1 = parseInt(prompt("1er nombre ?"))
+const nb2 = parseInt(prompt("2ème nombre ?"))
+
+
 // Déclaration de la fonction calculer
 
+function calculer() {
+    switch (operation) {
+        case "+":
+            return nb1 + nb2
+        case "-":
+            return nb1 - nb2
+        case "/":
+            return nb1 / nb2
+        case "*":
+            return nb1 * nb2
+    }
+}
 
 // Utilisation de la fonction calculer
 
+console.log(calculer(nb1, operation, nb2))

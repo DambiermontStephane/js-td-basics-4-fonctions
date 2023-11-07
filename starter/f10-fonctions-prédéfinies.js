@@ -30,6 +30,13 @@ Utiliser la fonction Math.random pour afficher dans la console
 
 console.log(Math.random()); // Un nombre aléatoire entre 0 et 1
 
+function entre010(min, max) {
+    return Math.random() * (max - min) + min
+}
+
+console.log(entre010(5, 15))
+console.log(entre010(0, 10))
+
 // Nous découvrirons plein d'autres fonctions prédéfinies dans la suite de ce cours.
 
 // 2°) Consulter la documentation !!
