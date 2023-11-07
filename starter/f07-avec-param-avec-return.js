@@ -16,7 +16,8 @@
 
 
 function direBonjour(prenom) {
-    const yo = `Bonjour ${prenom} !`
+    let yo;
+    yo = `Bonjour ${prenom} !`;
     return yo
 }
 
